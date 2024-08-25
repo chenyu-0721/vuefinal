@@ -1,10 +1,10 @@
-import { createRouter, createWebHistory } from 'vue-router'
+import { createRouter, createWebHashHistory } from 'vue-router'
 import login from '../view/login.vue'
 import signUp from '../view/signUp.vue'
 import todolist from '../view/todolist.vue'
 
 const router = createRouter({
-  history: createWebHistory('/vuefinal/'),
+  history: createWebHashHistory('/vuefinal/'),
   routes: [
     {
       path: '/',
