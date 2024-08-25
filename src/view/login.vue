@@ -41,7 +41,7 @@
               required
             />
             <input class="formControls_btnSubmit" type="submit" value="登入" />
-            <a class="formControls_btnLink" href="/signUp">註冊帳號</a>
+            <a class="formControls_btnLink" href="#signUp">註冊帳號</a>
           </form>
         </div>
       </div>
@@ -77,7 +77,7 @@ const login = async () => {
     account.value = ''
     password.value = ''
     isLogin.value = true
-    window.location.href = '/todolist'
+    window.location.href = '#todolist'
   } catch (error) {
     alert('登入失敗: ' + error.response.data.message)
   }
