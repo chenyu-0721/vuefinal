@@ -4,7 +4,7 @@ import signUp from '../view/signUp.vue'
 import todolist from '../view/todolist.vue'
 
 const router = createRouter({
-  history: createWebHistory('/homework6/'),
+  history: createWebHistory('/vuefinal/'),
   routes: [
     {
       path: '/',
