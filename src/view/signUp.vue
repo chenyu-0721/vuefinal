@@ -96,7 +96,7 @@ const signUp = async () => {
       nickname: nickname.value,
     })
     alert('註冊成功')
-    window.location.href = '/'
+    window.location.href = '#'
   } catch (error) {
     alert('註冊失敗: ' + error.response.data.message)
   }
